@@ -5,7 +5,9 @@ public class Lab4 {
 		ThreeDice dice = new ThreeDice();
 		Test3Dice dice2 = new Test3Dice();
 		
-		System.out.println("Current class: "+dice.Throw());
-		System.out.println("Parent Class: " +dice2.Throw());
+		System.out.println(dice.Throw()); 
+		System.out.print(dice2.Throw()); 
+
 	}
 }
+
